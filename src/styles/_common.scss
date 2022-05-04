@@ -1,0 +1,212 @@
+@import './variables';
+
+body {
+    background-color: #431D5A;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: $purple;
+}
+
+h2 {
+    font-size: 52px;
+    color: $purple;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-300 {
+    margin-bottom: 300px;
+}
+
+.mb-500 {
+    margin-bottom: 500px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-40 {
+    padding: 40px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}
+
+.pr-40 {
+    padding-right: 40px;
+}
+
+.bg-fafafa {
+    background-color: #FAFAFA;
+}
+
+.bg-ffffff {
+    background-color: #ffffff;
+}
+
+.br-8 {
+    border-radius: 8px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.float-start {
+    float: left;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 0;
+    line-height: 1.5;
+    cursor: pointer;
+
+
+    &.btn-primary {
+        background-color: $purple;
+        color: white;
+        border: 1px solid $purple;
+    }
+
+    &.btn-secondary {
+        background-color: transparent;
+        color: $purple;
+        border: 1px solid $purple;
+    }
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+
+.form-controls {
+    width: 100%;
+    margin-bottom: 30px;
+
+    label {
+        width: 100%;
+        float: left;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    select {
+        border: 1px solid $purple;
+        outline: none;
+        font-family: 'Nunito', sans-serif;
+        width: 100%;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+    input[ type="radio"] {
+        float: left;
+        margin-top: 2px;
+        margin-left: 0;
+        margin-right: 5px;
+        margin-bottom: 20px;
+    }
+}
